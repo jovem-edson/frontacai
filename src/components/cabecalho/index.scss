@@ -1,0 +1,62 @@
+.cabecalho {
+    background-color: #542658;
+    padding: 25px 100px;
+
+    .cabecalho-titulo {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+    }
+
+    .cabecalho-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho-nav {
+        display: flex;
+        gap: 10px;
+    
+        .cabecalho-nav-item-link {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            text-decoration: none;
+
+        }
+    }
+
+    
+    .totem {
+        color: #8DD743;
+    }
+
+    .pedidos {
+        color: white;
+    }
+
+    .cabecalho-botao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background-color: #8DD743;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100px;
+        height: 35px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+
+
+}
