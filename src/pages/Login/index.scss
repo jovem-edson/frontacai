@@ -1,0 +1,72 @@
+.pagina-login {
+    background-color: #EBE1E7;
+    font-family: "Inter", sans-serif;
+}
+.primeira-secao-login-container {
+    display: flex;
+}
+
+.quadro-boas-vindas,
+.quadro-login {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 450px;
+        height: auto;
+    }
+
+    h1 {
+        width: 280px;
+        color: white;
+        font-weight: 600;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .primeira-secao-login-container {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .quadro-boas-vindas,
+    .quadro-login {
+        flex: none;
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+.quadro-boas-vindas {
+    background-color: #A76EAE;
+    padding-top: 50px;
+}
+
+.quadro-login {
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formulario{ 
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+    
+    h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+}
+
+.campo-formulario-nomes {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-formulario {
+    margin-bottom: 15px;
+}
