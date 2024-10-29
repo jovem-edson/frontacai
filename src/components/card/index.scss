@@ -1,11 +1,11 @@
 .card {
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: white;
     border-radius: 16px 16px 0px 0px;
     text-align: center;
-    width: 200px;
-    margin: 10px;
+    width: 250px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -15,9 +15,24 @@
     border-radius: 16px 16px  0 0;
 }
 
+.card-titulo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    
+    img {
+        width:20px;
+        height: 20px;
+    }
+}
+
 .card-titulo {
     padding: 5px;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    
 }

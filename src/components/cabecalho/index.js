@@ -22,7 +22,7 @@ export default function Cabecalho() {
 
                 <button className='cabecalho-botao'>
                     Login
-                    <img src='/assets/images/botoes/Enter.png' />
+                    <img src='/assets/images/botoes/Enter.png' alt='enter' />
                 </button>
 
             </div>

@@ -1,3 +1,17 @@
 .pagina-home {
     background-color: #EBE1E7;
+    font-family: "Inter", sans-serif;
+}
+
+.primeira-secao-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 100px;
+}
+
+.sobremesas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }

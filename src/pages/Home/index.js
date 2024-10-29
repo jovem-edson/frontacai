@@ -11,9 +11,36 @@ export default function Home(){
             <section className='primeira-secao'>
                 <div className='primeira-secao-container'>
                     <h1>O que deseja experimentar hoje?</h1>
-                    <div className='sobremesas'>
+                    <div className='sobremesas-container'>
+                        <div className='sobremesa'>
                         <Card imagem="/assets/images/sobremesas/acai200ml.png"
                               titulo="Açaí - copo 200ml"/>
+                        </div>
+
+                        <div className='sobremesa'>
+                        <Card imagem="/assets/images/sobremesas/acai200ml.png"
+                              titulo="Açaí - copo 200ml"/>
+                        </div>
+
+                        <div className='sobremesa'>
+                        <Card imagem="/assets/images/sobremesas/acai200ml.png"
+                              titulo="Açaí - copo 200ml"/>
+                        </div>
+
+                        <div className='sobremesa'>
+                        <Card imagem="/assets/images/sobremesas/acai200ml.png"
+                              titulo="Açaí - copo 200ml"/>
+                        </div>
+
+                        <div className='sobremesa'>
+                        <Card imagem="/assets/images/sobremesas/acai200ml.png"
+                              titulo="Açaí - copo 200ml"/>
+                        </div>
+
+                        <div className='sobremesa'>
+                        <Card imagem="/assets/images/sobremesas/acai200ml.png"
+                              titulo="Açaí - copo 200ml"/>
+                        </div>
                     </div>
                 </div>
 
