@@ -1,0 +1,66 @@
+.secao-opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    .ingredientes-lista {
+        display: flex;
+        overflow-x: auto;
+        padding: 10px;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .ingrediente-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #542658;
+        border-radius: 10px;
+        padding: 10px;
+        min-width: 120px;
+        background-color: #f9f9f9;
+        text-align: center;
+
+        .ingrediente-imagem {
+            width: 90px;
+            height: 80px;
+            object-fit: cover;
+            margin-bottom: 5px;
+        }
+
+        .ingrediente-nome {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .ingrediente-controle {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .botao-opcoes {
+                padding: 5px 10px;
+                font-size: 15px;
+                background-color: white;
+                border: 1px solid #542658;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            .ingrediente-quantidade {
+                font-size: 16px;
+                font-weight: bold;
+                width: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
