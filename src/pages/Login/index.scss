@@ -51,15 +51,45 @@
 }
 
 .formulario{ 
+    width: 600px;
+    padding: 20px;
     align-items: center;
     flex-direction: column;
     display: flex;
     gap: 20px;
+    border: #A76EAE solid;
+    border-radius: 30px;
+    background-color: white;
     
     h1 {
     color: white;
     margin-bottom: 20px;
 }
+
+.campo-formulario-input {
+        width: 300px;
+        height: 30px;
+        border: #A76EAE solid 1px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .campo-formulario-botao {
+        background-color: #8DD743;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 80px;
+        height: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        transition: color 0.3s;
+            &:hover {
+                color: #034b0c
+            }
+    }
 }
 
 .campo-formulario-nomes {

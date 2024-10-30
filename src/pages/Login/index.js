@@ -18,15 +18,15 @@ export default function Home() {
             <h2>Login</h2>
             <div className="campo-formulario-nomes">
                 <div className="campo-formulario">
-                    <input type="text" name="nome" placeholder='Insira o usuário de rede...' />
+                    <input className="campo-formulario-input" type="text" name="nome" placeholder='Insira o usuário de rede...' />
                 </div>
 
                 <div className="campo-formulario">
-                    <input type="password" name="senha" placeholder='Insira sua senha...' />
+                    <input className="campo-formulario-input" type="password" name="senha" placeholder='Insira sua senha...' />
                 </div>
             </div>
             <div>
-                <input type="submit" value="Enviar" />
+                <input className="campo-formulario-botao" type="submit" value="Enviar" />
             </div>
         </form>
     </div>

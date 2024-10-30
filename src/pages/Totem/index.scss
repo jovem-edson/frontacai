@@ -1,0 +1,28 @@
+.pagina-totem {
+    background-color: #EBE1E7;
+    font-family: "Inter", sans-serif;
+}
+
+.primeira-secao-totem {
+    padding: 50px;
+}
+.primeira-secao-totem-container {
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
+    display: flex;
+}
+
+.totem-titulo {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    width: 550px;
+    color: white;
+    background-color: #542658;
+}
+
+.totem-conteudo {
+    min-height: 300px;
+    background-color: white;
+}
